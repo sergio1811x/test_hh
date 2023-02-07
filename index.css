@@ -1,0 +1,47 @@
+body {
+    background: antiquewhite;
+}
+
+.table {
+    display: grid;
+    width: 97%;
+    word-wrap: break-word;
+    grid-template-columns: 3% 25% 36% 36%;
+    grid-template-rows: 10% 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 20px;
+    grid-template-areas:
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . ."
+            ". . . .";
+  }
+.actions {
+  text-align: center;
+}
+.ai {
+  background-image: url('./img/ai.jpg');
+}
+
+.container {
+  margin: 50px auto 0;
+  width: 300px;
+  padding-bottom: 350px;
+ 
+}
+.cell {
+  background-color: white;
+  border: 2px solid black;
+  float: left;
+  height: 96px;
+  width: 96px;
+   
+}
+.cell:hover {
+  border-color: red;
+}
+.player {
+  background-image: url('./img/player.jpg');
+}
